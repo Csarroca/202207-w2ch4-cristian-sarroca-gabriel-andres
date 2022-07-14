@@ -6,6 +6,7 @@ class Skylabarray {
     for (const j of value) {
       this[i] = j;
       i += 1;
+      this.length = i;
     }
   }
 }
