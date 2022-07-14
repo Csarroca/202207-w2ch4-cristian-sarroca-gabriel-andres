@@ -9,6 +9,12 @@ class Skylabarray {
       this.length = i;
     }
   }
+
+  push(input, objectInstance) {
+    const i = objectInstance.length;
+    this[i] = input;
+    this.length = objectInstance.length + 1;
+  }
 }
 
 module.exports = Skylabarray;
